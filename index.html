@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invitacion!!</title>
+    <meta charset="utf-8">
+    <link href="css/index.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>    
+    
+<center>
+<h1 id="letra">Presione </h1><h1 id= "titulo"> la carta:</h1>
+<h1 id='respuesta'>Estas cordialmente invitado a nuestra union civil!!</h1>
+<div id = "cuadro">
+    <img onclick="funcion()" id="carta" src="img/carta.jpg"/>
+    <img id ="portada" src="img/fondocompleto.png"/>
+</div>
+
+<h1 id='respuesta2'>El evento sera el dia *** en ***</h1>
+<br/>
+<h1 id="respuesta3">&#8659;
+ No faltes!! &#8659;
+</h1>
+<br/>
+<iframe id = "mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.2467728725023!2d-70.6054449847982!3d-33.54696418074633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d0be0e61267d%3A0xa909cc1a860c7eaf!2sTrinidad%201288%2C%20La%20Florida%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses!2scl!4v1620886037204!5m2!1ses!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</center>
+
+<script type="text/javascript">
+            function funcion(){
+                document.getElementById('carta').style.display = 'none';
+                document.getElementById('portada').style.display = 'inline';
+                document.getElementById('letra').style.display = 'none';
+                document.getElementById('titulo').style.display = 'none';
+                document.getElementById('respuesta').style.display = 'inline';
+                document.getElementById('respuesta2').style.display = 'inline';
+                document.getElementById('respuesta3').style.display = 'inline';
+                document.getElementById('mapa').style.display = 'inline';
+                
+            }
+        </script>
+    
+</body>
+</html>
