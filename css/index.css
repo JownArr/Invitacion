@@ -12,6 +12,10 @@
         box-shadow: 0 0 0 6px black;
     }
 }
+@keyframes salto{
+    from {bottom:0px;}
+    to {bottom:15px;}
+}
 body{
     background-color: black;
 }
@@ -65,6 +69,9 @@ body{
     height: 100%;
     border-radius: 10px;
     margin-top: 0px;
+    position:relative;
+    animation:salto 0.5s infinite;
+    transition:transform 0.5s;
 }
 #cuadro{
     max-width: 500px;
